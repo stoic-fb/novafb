@@ -67,7 +67,7 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "📢 https://t.me/irnova_proxy",
+      "tag": "📢 Made By Stoic",
       "server": "192.0.2.1",
       "server_port": 443,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
@@ -111,7 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+      "tag": "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
       "server": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
       "server_port": 443,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
@@ -134,8 +134,54 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-      "server": "8.39.125.145",
+      "tag": "198.41.223.196:2087 [VLESS]",
+      "server": "198.41.223.196",
+      "server_port": 2087,
+      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "104.17.119.250:2083 [VLESS]",
+      "server": "104.17.119.250",
+      "server_port": 2083,
+      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "104.17.188.224:2053 [VLESS]",
+      "server": "104.17.188.224",
       "server_port": 2053,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -157,54 +203,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-      "server": "104.17.111.150",
-      "server_port": 2096,
-      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-      "server": "188.164.248.16",
-      "server_port": 443,
-      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-      "server": "104.17.168.52",
+      "tag": "162.159.46.54:2083 [VLESS]",
+      "server": "162.159.46.54",
       "server_port": 2083,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -226,8 +226,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-      "server": "198.41.223.22",
+      "tag": "172.67.76.172:2096 [VLESS]",
+      "server": "172.67.76.172",
       "server_port": 2096,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -249,9 +249,9 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-      "server": "104.26.0.87",
-      "server_port": 2096,
+      "tag": "104.26.8.162:2053 [VLESS]",
+      "server": "104.26.8.162",
+      "server_port": 2053,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
         "path": "/",
@@ -272,8 +272,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-      "server": "173.245.59.255",
+      "tag": "104.19.35.84:2083 [VLESS]",
+      "server": "104.19.35.84",
       "server_port": 2083,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -295,9 +295,9 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-      "server": "173.245.58.45",
-      "server_port": 2096,
+      "tag": "104.26.5.110:2053 [VLESS]",
+      "server": "104.26.5.110",
+      "server_port": 2053,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
         "path": "/",
@@ -318,8 +318,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-      "server": "104.17.21.15",
+      "tag": "104.17.18.191:443 [VLESS]",
+      "server": "104.17.18.191",
       "server_port": 443,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -341,8 +341,100 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-      "server": "104.17.177.210",
+      "tag": "104.17.21.214:2053 [VLESS]",
+      "server": "104.17.21.214",
+      "server_port": 2053,
+      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "172.66.1.224:443 [VLESS]",
+      "server": "172.66.1.224",
+      "server_port": 443,
+      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "198.41.223.179:443 [VLESS]",
+      "server": "198.41.223.179",
+      "server_port": 443,
+      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "188.164.248.188:2087 [VLESS]",
+      "server": "188.164.248.188",
+      "server_port": 2087,
+      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "8.39.125.242:8443 [VLESS]",
+      "server": "8.39.125.242",
       "server_port": 8443,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -364,54 +456,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-      "server": "162.159.39.158",
-      "server_port": 2087,
-      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-      "server": "162.159.39.135",
-      "server_port": 2087,
-      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-      "server": "91.193.58.185",
+      "tag": "104.16.144.90:443 [VLESS]",
+      "server": "104.16.144.90",
       "server_port": 443,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
@@ -433,9 +479,9 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-      "server": "91.193.59.143",
-      "server_port": 443,
+      "tag": "104.17.103.195:2087 [VLESS]",
+      "server": "104.17.103.195",
+      "server_port": 2087,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
       "transport": {
         "path": "/",
@@ -456,53 +502,7 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-      "server": "104.16.154.59",
-      "server_port": 2053,
-      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-      "server": "104.19.51.34",
-      "server_port": 2083,
-      "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "headers": {
-          "Host": "nova-pixel-portal-497d.holythisgigganila.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "nova-pixel-portal-497d.holythisgigganila.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
+      "tag": "104.18.0.0:443 [VLESS]",
       "server": "104.18.0.0",
       "server_port": 443,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
@@ -525,7 +525,7 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]",
+      "tag": "104.18.1.1:2053 [VLESS]",
       "server": "104.18.1.1",
       "server_port": 2053,
       "uuid": "a9bbacd3-54e9-42ea-823d-f13668ba175a",
@@ -550,56 +550,56 @@
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
+        "📢 Made By Stoic",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -609,57 +609,57 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ]
     },
     {
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ]
     },
     {
       "type": "selector",
       "tag": "🎯 全球直连",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
+        "📢 Made By Stoic",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "🚀 节点选择",
@@ -670,7 +670,7 @@
       "type": "selector",
       "tag": "🛑 全球拦截",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
+        "📢 Made By Stoic",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "REJECT",
         "DIRECT"
@@ -680,39 +680,39 @@
       "type": "selector",
       "tag": "🐟 漏网之鱼",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
+        "📢 Made By Stoic",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ]
     },
     {
       "type": "selector",
       "tag": "☁️ CloudFlareCDN",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
+        "📢 Made By Stoic",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🐟 漏网之鱼",
         "🚀 节点选择",
@@ -720,53 +720,53 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ]
     },
     {
       "type": "selector",
       "tag": "GLOBAL",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
+        "📢 Made By Stoic",
         "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
-        "سرویس رایگان نوا nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا 8.39.125.145:2053 [VLESS]",
-        "سرویس رایگان نوا 104.17.111.150:2096 [VLESS]",
-        "سرویس رایگان نوا 188.164.248.16:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.168.52:2083 [VLESS]",
-        "سرویس رایگان نوا 198.41.223.22:2096 [VLESS]",
-        "سرویس رایگان نوا 104.26.0.87:2096 [VLESS]",
-        "سرویس رایگان نوا 173.245.59.255:2083 [VLESS]",
-        "سرویس رایگان نوا 173.245.58.45:2096 [VLESS]",
-        "سرویس رایگان نوا 104.17.21.15:443 [VLESS]",
-        "سرویس رایگان نوا 104.17.177.210:8443 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.158:2087 [VLESS]",
-        "سرویس رایگان نوا 162.159.39.135:2087 [VLESS]",
-        "سرویس رایگان نوا 91.193.58.185:443 [VLESS]",
-        "سرویس رایگان نوا 91.193.59.143:443 [VLESS]",
-        "سرویس رایگان نوا 104.16.154.59:2053 [VLESS]",
-        "سرویس رایگان نوا 104.19.51.34:2083 [VLESS]",
-        "سرویس رایگان نوا 104.18.0.0:443 [VLESS]",
-        "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]"
+        "nova-pixel-portal-497d.holythisgigganila.workers.dev:443 [VLESS]",
+        "198.41.223.196:2087 [VLESS]",
+        "104.17.119.250:2083 [VLESS]",
+        "104.17.188.224:2053 [VLESS]",
+        "162.159.46.54:2083 [VLESS]",
+        "172.67.76.172:2096 [VLESS]",
+        "104.26.8.162:2053 [VLESS]",
+        "104.19.35.84:2083 [VLESS]",
+        "104.26.5.110:2053 [VLESS]",
+        "104.17.18.191:443 [VLESS]",
+        "104.17.21.214:2053 [VLESS]",
+        "172.66.1.224:443 [VLESS]",
+        "198.41.223.179:443 [VLESS]",
+        "188.164.248.188:2087 [VLESS]",
+        "8.39.125.242:8443 [VLESS]",
+        "104.16.144.90:443 [VLESS]",
+        "104.17.103.195:2087 [VLESS]",
+        "104.18.0.0:443 [VLESS]",
+        "104.18.1.1:2053 [VLESS]"
       ]
     },
     {
